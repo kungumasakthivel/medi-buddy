@@ -33,13 +33,13 @@ import './NavBar.css'
 
        {/* Search bar implementation */}
        <div className='flex flex-row justify-center'>
-            <div className="flex items-center border border-gray-300 rounded-full p-2 w-72">
+            <div className="flex items-center border border-gray-300 p-2 search-bar">
             <input
                 type="text"
                 className="flex-grow p-2 rounded-full outline-none ml-2"
-                placeholder="Search..."
+                placeholder="Find lab tests, diagnostics centres"
             />
-            <FontAwesomeIcon icon={faSearch} className="text-gray-400 ml-2" />
+            <FontAwesomeIcon icon={faSearch} className="text-gray-400 ml-3" />
             </div>     
        </div>
      </div>

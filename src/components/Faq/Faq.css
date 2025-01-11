@@ -1,6 +1,7 @@
 .faq-container {
   width: 70%;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .faq-item {

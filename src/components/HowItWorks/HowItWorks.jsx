@@ -1,7 +1,7 @@
 import './HowItWorks.css';
 function HowItWorks() {
   return (
-    <div className="hotitworls-container">
+    <div className="hotitworls-container ml-5 mt-5">
       <div className="con-1 mb-3">
         <h1 className="text-start font-bold text-xl">How it Works?</h1>
         <div className="flex flex-col">

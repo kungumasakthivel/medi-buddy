@@ -1,0 +1,14 @@
+.hotitworls-container {
+  width: 100%;
+}
+
+.text-justify.font-semibold {
+  color: #47566a;
+}
+
+.blue-box {
+  background-color: #f1f7ff;
+  border-radius: 4px;
+  min-width: 40%;
+  min-height: 20%;
+}

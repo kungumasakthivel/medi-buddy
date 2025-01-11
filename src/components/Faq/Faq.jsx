@@ -53,7 +53,7 @@ const Faq = () => {
 
   return (
     <>
-    <h1 className='text-start mt-5 text-lg font-bold ml-5'>Frequently Asked Questions</h1>
+    <h1 className='text-start mt-5 ml-5 font-bold text-2xl max-md:text-lgml-5'>Frequently Asked Questions</h1>
   <div className="faq-container">
       {qAndA && qAndA.map((faq, index) => (
         <div key={index} className="faq-item">

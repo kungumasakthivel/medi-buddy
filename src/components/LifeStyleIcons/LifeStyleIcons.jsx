@@ -3,7 +3,7 @@ import './LifeStyleIcons.css';
 function LifeStyleIcons() {
   return (
     <div>
-      <h1 className="text-start mt-5 text-lg font-bold ml-5">
+      <h1 className="text-start mt-5 text-2xl font-bold ml-5 max-md:text-base">
         Lifestyle Health Check-up Packages
       </h1>
       <div className="flex justify-around mt-5">

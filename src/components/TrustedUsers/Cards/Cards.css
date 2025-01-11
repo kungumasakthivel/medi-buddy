@@ -1,0 +1,12 @@
+.card {
+    margin-top: 20px;
+    height: inherit;
+    background-color: #FBFCFF;
+}
+
+.round-profile {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}

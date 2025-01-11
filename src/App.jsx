@@ -1,14 +1,14 @@
 import './App.css'
-import HowItWorks from './components/HowItWorks/HowItWorks'
+// import HowItWorks from './components/HowItWorks/HowItWorks'
 // import Faq from './components/Faq/Faq'
-// import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
+      {/* <HowItWorks /> */}
       {/* <Faq /> */}
-      <HowItWorks />
     </>
   )
 }

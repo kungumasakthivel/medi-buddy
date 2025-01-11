@@ -8,8 +8,12 @@
 }
 
 .search-bar {
-  border-radius: 4px;
+  border-radius: 16px;
   width: 400px;
+}
+
+.icons-con {
+  margin:10px;
 }
 
 @media (max-width: 768px) {

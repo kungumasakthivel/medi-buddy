@@ -6,6 +6,7 @@
     faSearch 
 } from '@fortawesome/free-solid-svg-icons';
 import './NavBar.css'
+import Img from '../../assets/image.png';
 
  function NavBar() {
    return (
@@ -145,6 +146,27 @@ import './NavBar.css'
                     <div>
                         <p>Previous Orders</p>
                     </div>
+                </div>
+            </div>
+       </div>
+
+       {/* banner pink with women */}
+       <div className='pink-banner'>
+            <div className='flex flex-row justify-between'>
+                <div className='basis-4/6 '>
+                    <div className='flex flex-col mt-2'>
+                        <div className='basis-3/6'>
+                            <h1 className='text-start ml-5 text-lg '>Baby On Board?</h1>
+                            <h1 className='text-start ml-5 text-lg '>Get Pregnancy Care Tests!</h1>
+                            <p className='text-start ml-5 text-sm'>Diabetes, ANC, Ferritin, HIV/Elisa & Thyroid</p>
+                        </div>
+                        <div className='self-start ml-5'>
+                            <button className='btn-book-now'>BOOK NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='basis-2/6 banner-img'>
+                    <img src={Img} alt='img' />
                 </div>
             </div>
        </div>

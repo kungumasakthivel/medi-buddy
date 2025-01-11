@@ -16,6 +16,26 @@
   margin:10px;
 }
 
+.pink-banner {
+  background-color: #FDE9F7;
+  border-radius: 18px;
+  height: 200px;
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+
+.btn-book-now {
+  background-color: none;
+  margin-top: 80px;
+}
+
+.banner-img {
+  display: flex;
+  justify-content: flex-end;
+  height:200px;
+  margin-right: 10px;
+}
+
 @media (max-width: 768px) {
   .custom-font-size {
     font-size: 20px;
@@ -25,4 +45,19 @@
     width: 328px;
     margin-top: 10px;
   }
+
+  .pink-banner{
+    margin-top:50px;
+    height: 180px;
+    font-weight: 400;
+  }
+
+  .btn-book-now {
+    font-weight: 500;
+    margin-top: 25px;
+  }
+
+    .banner-img {
+      height: 180px;
+    }
 }

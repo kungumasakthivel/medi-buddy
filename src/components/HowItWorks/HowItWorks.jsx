@@ -3,7 +3,7 @@ function HowItWorks() {
   return (
     <div className="hotitworls-container ml-5 mt-10">
       <div className="con-1 mb-3">
-        <h1 className="text-start font-bold text-2xl max-md:text-lg">How it Works?</h1>
+        <h1 className="text-start font-bold text-3xl max-md:text-lg">How it Works?</h1>
         <div className="flex flex-col">
             <div className="flex flex-row justify-center p-5">
                 <div className="basis-1/4 content-start svg-container">

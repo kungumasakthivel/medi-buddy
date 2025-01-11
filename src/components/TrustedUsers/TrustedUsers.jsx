@@ -38,7 +38,7 @@ function TrustedUsers() {
         </div>
 
         {/* Slider - user review */}
-        <h1 className='font-bold text-xl text-left mt-10 max-sm:font-bold max-sm:text-lg'>What our Users say</h1>
+        <h1 className='font-bold text-3xl text-left mt-10 max-sm:font-bold max-sm:text-lg'>What our Users say</h1>
         <UserSlider />
     </div>
   )

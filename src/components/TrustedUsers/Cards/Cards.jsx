@@ -1,6 +1,6 @@
 import './Cards.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';//+
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';//+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 function Cards() {
   return (
     <div className="rounded-xl card">

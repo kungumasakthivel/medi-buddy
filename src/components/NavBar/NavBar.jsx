@@ -3,7 +3,8 @@
     faArrowLeft, 
     faWallet, 
     faCartShopping,
-    faSearch 
+    faSearch,
+    faLocationDot
 } from '@fortawesome/free-solid-svg-icons';
 import './NavBar.css'
 import Img from '../../assets/image.png';
@@ -19,8 +20,8 @@ import Img from '../../assets/image.png';
             <div className='basis-9/12'>
                 <div className='flex flex-row'>
                     <div className='flex flex-col justify-start'>
-                        <h6>HSR Layout</h6>
-                        <p>Bengalore</p>
+                        <h6 className='font-bold text-lg'>HSR Layout <FontAwesomeIcon icon={faLocationDot} className='mr-2'/></h6>
+                        <p className='font-bold text-lg text-start'>Bengalore</p>
                     </div>
                 </div>
             </div>

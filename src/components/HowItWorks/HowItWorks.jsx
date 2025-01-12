@@ -78,7 +78,7 @@ function HowItWorks() {
             </div>
         </div>
       </div>
-      <div className='con-2'>
+      <div className='con-2 mr-5'>
         <h1 className="text-start font-bold text-2xl max-md:text-lg">100% Safe & Secure Lab Tests</h1>
         <div className='flex flex-row justify-center'>
             <div className='basis-2/4 blue-box m-2 p-3 text-center content-center'>

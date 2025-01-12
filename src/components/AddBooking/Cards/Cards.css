@@ -1,0 +1,27 @@
+.add-booking {
+    border: #2C2C2C1A 2px solid;
+    width: inherit;
+    width: 600px;
+    border-radius: 15px;
+}
+.add-booking-card-container {
+    height: inherit;
+    position: relative;
+}
+
+.add-booking .greater-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2C2C2C1A;
+    box-shadow: 5px 5px 10px #2C2C2C1A;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
+.add-booking-desc {
+    border: 1px solid #2C2C2C1A;
+    height: inherit;
+    border-radius: 18px;
+    position: relative;
+    background-color: #D6E8FF;
+}

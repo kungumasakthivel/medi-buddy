@@ -1,6 +1,6 @@
 # MediBuddy
 
-###### Setup:
+#### Setup:
 
 * clone the repo `git clone https://github.com/kungumasakthivel/medi-buddy.git`
 * navigate to app folder `cd <folder_name>`

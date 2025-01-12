@@ -67,7 +67,7 @@
     }
 
     .sticker-book-labs {
-        display: flex;
+        display: hidden;
         flex-direction: row-reverse;
         justify-items: center;
         background-color: #459F49;

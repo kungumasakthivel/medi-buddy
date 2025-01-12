@@ -5,7 +5,7 @@ function Card() {
   return (
     <div className='flex justify-center mb-5 '>
         <div className='rounded-xl shadow-lg book-lab-card p-2 pt-0'>
-            <div className='sticker-book-labs'>
+            <div className='sticker-book-labs max-md:hidden'>
                 <p>Caseless</p>
             </div>
             <div className='flex justify-between items-center gap-5 mt-5'>

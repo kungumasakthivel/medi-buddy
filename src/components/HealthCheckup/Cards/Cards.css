@@ -1,0 +1,45 @@
+.checkup-card {
+    border: 2px solid #cecece;
+    width: 500px;
+}
+
+.blue-text {
+    color: #1778F2;
+}
+
+.dot {
+    font-family: Lexend Deca;
+    color: #4F4F4F;
+    font-weight: 500;
+}
+
+.box-size-left {
+    width: 200px;
+}
+
+.checkup-row-2 {
+    background-color: #F8F8F8;
+}
+
+.price-and-btn {
+    border: #1778F2 2px solid;
+    width: inherit;
+    padding: 5px 10px;
+    border-radius: 18px;
+    margin-right: 20px;
+}
+
+.btn-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* .box-size {
+    width: 300px;
+}*/
+
+@media only screen and (max-width:500px) {
+    .box-size-left {
+        width: 130px;
+    }
+} 

@@ -1,4 +1,5 @@
 import './App.css'
+import HealthCheckup from './components/HealthCheckup/HealthCheckup'
 import BookLabs from './components/BookLabs/BookLabs'
 import TrustedUsers from './components/TrustedUsers/TrustedUsers'
 import HowItWorks from './components/HowItWorks/HowItWorks'
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <HealthCheckup />
       <BookLabs />
       <AddBooking />
       <LabsVisited />

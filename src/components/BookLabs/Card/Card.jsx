@@ -36,12 +36,12 @@ function Card() {
                 </div>
                 <div className='col-2 flex flex-col  justify-between items-end '>
                     <div className='flex justify-start gap-2'>
-                        <p className='off-price'>$800 </p>
+                        <p className='off-price'>₹800 </p>
                         <p className='off'>55% OFF</p>
                     </div>
                     <div className=''>
                         <p className='real-price max-sm:text-base'>
-                            $500 /- 
+                            ₹500 /- 
                             <span className='span-onwards max-sm:text-sm'>
                                 Omwards
                             </span>

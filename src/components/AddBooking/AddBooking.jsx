@@ -3,8 +3,8 @@ import AddBookingSliders from './AddBookingSliders';
 
 function AddBooking() {
   return (
-    <div>
-      <div className='flex justify-between content-center mt-10 max-sm:ml-5 max-sm:mr-5'>
+    <div className='mb-10 mt-10'>
+      <div className='flex justify-between content-center ml-5 mr-5 mt-10 max-sm:ml-5 max-sm:mr-5'>
         <p className='text-3xl font-bold max-md:text-xl'>
             Your Active Bookings 
         </p>

@@ -1,7 +1,9 @@
 .labs-card {
-    border: 2px solid black;
+    border: 2px solid rgb(104, 103, 103);
     height: inherit;
     width: 600px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgb(104, 103, 103);
 }
 
 .src-img {
@@ -9,7 +11,6 @@
     width: 600px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    border-bottom: 2px solid black;
 }
 
 .labs-desc {
@@ -17,13 +18,36 @@
     height: inherit;
 }
 
+.rating-labs {
+    position: absolute !important; 
+    left: 437px;
+    top: 230px;
+    background-color: #FFFAD6;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 5px 10px;
+}
+
+
+/* small screen */
 @media (max-width: 768px) {
     .labs-card {
         width: 350px;
+        box-shadow: 1px 1px 10px rgb(104, 103, 103);
     }
 
     .src-img {
         height: 170px;
         width: 350px;
+    }
+
+    .rating-labs {
+        position: absolute !important;
+        left: 187px;
+        top: 152px;
+        background-color:#FFFAD6;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        padding: 5px 10px;
     }
 }

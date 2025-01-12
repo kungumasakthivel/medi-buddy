@@ -1,0 +1,91 @@
+.sticker-book-labs {
+    background-color: #459F49;
+    color: white;
+    border-radius: 0px 12px;
+    /* transform: rotate(180deg); */
+    position: absolute;
+    /* top: 1px; */
+    right:437px;
+    /* top: 0px; */
+}
+
+.book-lab-card {
+    width: 600px;
+    border: 1px solid  rgba(0, 0, 0, 0.1);
+}
+
+.col-1 {
+    width: 350px;
+}
+
+.col-2 {
+    width: 250;
+}
+
+.bl-card-btn {
+    background-color: none;
+    border: 2px #1778F2 solid;
+    color: #1778F2;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 15px;
+}
+
+.off {
+    background-color: #EDF7EE;
+    color: #459F49;
+    border-radius: 2px 4px;
+}
+
+.off-price {
+    size: 10px;
+    color: #828282;
+    text-decoration: line-through;
+}
+
+
+
+.real-price {
+    color: #050A4E;
+    font-weight: bold;
+}
+
+.span-onwards {
+    color: #828282;
+}
+
+@media (max-width: 767px) {
+    .book-lab-card {
+        width: 400px;
+    }
+
+    .col-1 {
+        width: 180px;
+    }
+    .col-2{
+        width: 130px;
+    }
+
+    .sticker-book-labs {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-items: center;
+        background-color: #459F49;
+        color: white;
+        border-radius: 0px 12px;
+        width: inherit;
+        position: absolute;
+        top: 73px;
+        right: 0px;
+        left: 345px;
+        bottom: 0px;
+        width: 60px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 1472px) and (min-width: 453px){
+    .sticker-book-labs {
+        display: none;
+    }
+}
